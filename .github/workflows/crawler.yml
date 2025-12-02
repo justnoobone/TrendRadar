@@ -49,7 +49,7 @@ jobs:
             exit 1
           fi
           if [ ! -f config/frequency_words.txt ]; then
-            echo "❌ 错误: config/frequency_words.txt 文件不存在"
+            echo "❌ 错误: config/frequency_words.txt  文件不存在"
             exit 1
           fi
           echo "✅ 配置文件检查通过"
